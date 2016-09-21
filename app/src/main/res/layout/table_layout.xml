@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+    android:stretchColumns="0,2">
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Update stats"
+            android:layout_column="0"/>
+
+        <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="nfo"
+                android:layout_column="1"/>
+
+        <Button android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Start Mission"
+                android:layout_column="2"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_span="2"
+            android:gravity="center"
+            android:text="Title text" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:layout_column="0"
+            android:layout_span="2"
+            android:src="@drawable/main"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_column="2"
+            android:ellipsize="none"
+            android:singleLine="false"
+            android:scrollHorizontally="false"
+            android:layout_gravity="center_vertical"
+            android:text="da dad ffads adsf adsf dasf dasf dasf adfs daf dafs dasf dasf dafs adsf "
+            />
+
+    </TableRow>
+
+
+</TableLayout>
